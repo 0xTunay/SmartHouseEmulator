@@ -1,10 +1,16 @@
+/*!
+ * @author Tunay
+ * @date 2025 05 19
+ * @details application for emulation Smart house, you can add and delete device
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
-
+#include "../include/SmartHouseCore.h"
 
 /*!
- * @details main fuction for start program
+ * @details main function for start program
  */
 int main(void) {
 
@@ -12,5 +18,5 @@ int main(void) {
 	puts("In this application you can build you own smart system ");
 
 
-	return 0;
+	Device *SmartHouseCore_Init(void);
 }
