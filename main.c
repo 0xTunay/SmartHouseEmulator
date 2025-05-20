@@ -13,10 +13,10 @@
  * @details main function for start program
  */
 int main(void) {
-
+	SmartHouse *house;
 	puts("Welcome to Smart House Emulator");
 	puts("In this application you can build you own smart system ");
 
 
-	Device *SmartHouseCore_Init(void);
+	SmartHouseCore_Init( &house);
 }

@@ -10,12 +10,8 @@
 
 #include "../include/SmartHouseCore.h"
 
-Device *SmartHouseCore_Init(void) {
-
-    Device *device;
-    device = (Device *)malloc(sizeof(Device));
-
-    puts("Welcome to SmartHouse Core");
+void *SmartHouseCore_Init(void) {
+    puts("SmartHouseEmulator v1.0");
 
 
     return 0;
