@@ -10,9 +10,19 @@
 
 #include "../include/SmartHouseCore.h"
 
-void *SmartHouseCore_Init(void) {
+/*!
+ * @details init smarthouse struct
+ */
+void SmartHouseCore_Init(){
+    SmartHouse house;
+
+    SmartHouseCore_Init(&house);
+    house.devices[0].type = DEVICE_LIGHT;
+    house.devices[0].status = STATUS_OFF;
+    house.devices[0].data.temperature = 18;
+
     puts("SmartHouseEmulator v1.0");
 
 
-    return 0;
+
 }
