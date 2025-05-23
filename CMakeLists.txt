@@ -8,9 +8,18 @@ set(INCLUDE_DIR "${CMAKE_SOURCE_DIR}/include")
 
 set(CORE
     ${CORE_DIR}/SmartHouseCore.c
+    ${CORE_DIR}/AddRoom.c 
+    ${CORE_DIR}/AddDevice.c
+    ${CORE_DIR}/Cli.c
+    ${CORE_DIR}/VTime.c
 )
 set(INCLUDE
     ${INCLUDE_DIR}/SmartHouseCore.h
+    ${INCLUDE_DIR}/AddRoom.h
+    ${INCLUDE_DIR}/AddDevice.h
+    ${INCLUDE_DIR}/Cli.h
+    ${INCLUDE_DIR}/VTime.h
+
 
 )
 add_library(core STATIC
