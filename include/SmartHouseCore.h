@@ -2,7 +2,7 @@
  * @file SmartHouseCore.h
  * @brief main header file for smart house.
  *
- * include initializite struct , enumeration functions, for the operation
+ * @details include initializite struct , enumeration functions, for the operation
  * of the smart house: DEVICE_LIGHT, DEVICE_HEATER,
  * DEVICE_TEMPERATURE and etc.
  *
