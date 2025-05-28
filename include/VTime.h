@@ -1,6 +1,16 @@
 #ifndef VTIME_H
 #define VTIME_H
 
-void "vtime_init(struct vtime_t *vtime);
+
+typedef struct  {
+    int tm_sec;
+    int tm_min;
+    int tm_hour;
+    int tm_mday;
+    int tm_mon;
+    int tm_year;
+} vtime_t;
+
+void vtime_init(struct vtime_t *vtime);
 
 #endif // VTIME_H
