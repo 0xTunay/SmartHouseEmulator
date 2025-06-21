@@ -11,6 +11,6 @@ typedef struct  {
     int tm_year;
 } vtime_t;
 
-void vtime_init(struct vtime_t *vtime);
+void time_init( vtime_t *vtime);
 
 #endif // VTIME_H
