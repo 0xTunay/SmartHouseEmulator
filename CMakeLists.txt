@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.31)
 
 project(SmartHouseEmulator C)
-set(CMAKE_C_STANDARD 11)
+
 
 set(CORE_DIR "${CMAKE_SOURCE_DIR}/core")
 set(INCLUDE_DIR "${CMAKE_SOURCE_DIR}/include")

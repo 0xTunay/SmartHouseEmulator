@@ -16,6 +16,6 @@ int main(void) {
     SmartHouse house;
 	puts("Welcome to Smart House Emulator");
 	puts("In this application you can build you own smart system ");
-
-	SmartHouseCore_Init(&house);
+	
+	SmartHouseCore_Init(&house);s
 }
